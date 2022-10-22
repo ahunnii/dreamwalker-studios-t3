@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `Color` ADD COLUMN `inStock` BOOLEAN NOT NULL DEFAULT true;

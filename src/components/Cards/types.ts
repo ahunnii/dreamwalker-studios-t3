@@ -19,6 +19,7 @@ enum Printer {
 }
 export interface Material {
   name: string;
+  inStock: boolean;
 }
 
 export enum SizeOption {
@@ -51,7 +52,8 @@ interface LocalOption {
 
 export interface Color {
   name: string;
-  materials?: Array<Material>;
+  inStock: boolean;
+  materials: Array<Material>;
 }
 
 interface Image {

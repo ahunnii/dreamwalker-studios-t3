@@ -17,10 +17,10 @@ const PrintOptions: FC<PrintOptionProps> = ({
   const [selectedType, setSelectedType] = useState(materials[0]?.name);
 
   useEffect(() => {
-    const printType = materials.map((material) => {
-      return { inStock: true, name: material.name };
-    });
-    setAvailableTypes(printType);
+    // const printType = materials.map((material) => {
+    //   return { inStock: true, name: material.name };
+    // });
+    setAvailableTypes(materials);
   }, [materials, currentVariant.material]);
 
   const handleSelectedTypeUpdate = (e: string) => {

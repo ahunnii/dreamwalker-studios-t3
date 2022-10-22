@@ -27,23 +27,32 @@ export const productRouter = router({
         categories: true,
         tags: true,
         images: true,
-        colors: {
-          select: {
-            name: true,
-            materials: {
-              select: {
-                name: true,
-              },
-            },
-          },
-        },
+      },
+    });
+  }),
+  getColorOptions: publicProcedure.query(({ ctx }) => {
+    return ctx.prisma.color.findMany({
+      select: {
+        name: true,
+        inStock: true,
         materials: {
           select: {
             name: true,
+            inStock: true,
           },
         },
-        sizes: true,
       },
     });
+  }),
+  getMaterialOptions: publicProcedure.query(({ ctx }) => {
+    return ctx.prisma.material.findMany({
+      select: {
+        name: true,
+        inStock: true,
+      },
+    });
+  }),
+  getCategories: publicProcedure.query(({ ctx }) => {
+    return ctx.prisma.category.findMany();
   }),
 });

@@ -8,6 +8,8 @@ import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
+
+import { useRouter } from "next/router";
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Products", href: "/shop", current: false },
@@ -20,6 +22,8 @@ function classNames(...classes: string[]) {
 }
 
 export default function NavBar() {
+  const { asPath } = useRouter();
+
   const { data: sessionData } = useSession();
   return (
     <Disclosure as="nav" className="bg-gray-800">
@@ -60,12 +64,12 @@ export default function NavBar() {
                       <Link
                         key={item.name}
                         href={item.href}
-                        aria-current={item.current ? "page" : undefined}
+                        aria-current={item.href === asPath ? "page" : undefined}
                         className="cursor-pointer"
                       >
                         <span
                           className={classNames(
-                            item.current
+                            item.href === asPath
                               ? "bg-gray-900 text-white"
                               : "text-gray-300 hover:bg-gray-700 hover:text-white",
                             "cursor-pointer rounded-md px-3 py-2 text-sm font-medium"

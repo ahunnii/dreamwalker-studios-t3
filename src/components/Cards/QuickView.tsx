@@ -1,49 +1,48 @@
-import { Dialog, RadioGroup, Transition } from "@headlessui/react";
-import { StarIcon } from "@heroicons/react/20/solid";
+import { Dialog, Transition } from "@headlessui/react";
+
 import { XMarkIcon } from "@heroicons/react/24/outline";
-import { useQuery } from "@tanstack/react-query";
-import axios from "axios";
-import { FC, forwardRef, Fragment, useEffect, useRef, useState } from "react";
+
+import Image from "next/image";
+import { FC, FormEvent, Fragment, useEffect, useState } from "react";
 
 import { trpc } from "../../utils/trpc";
+
 import ColorOptions from "./ColorOptions";
 import PrintOptions from "./PrintOptions";
-import SizeOptions from "./SizeOptions";
-import {
-  LocalProduct,
-  LocalSelectedVariant,
-  PrintMaterial,
-  SizeOption,
-} from "./types";
+
+import { LocalSelectedVariant, SimpleProduct } from "./types";
 
 interface QuickViewProps {
   isOpen: boolean;
   setIsOpen: (open: boolean) => void;
-  print: string;
+  print: SimpleProduct;
 }
 
 const QuickView: FC<QuickViewProps> = ({ isOpen, setIsOpen, print }) => {
-  const { data: product } = trpc.product.getOne.useQuery(print);
+  const { data: colorOptions } = trpc.product.getColorOptions.useQuery();
+  const { data: materialOptions } = trpc.product.getMaterialOptions.useQuery();
 
   const [currentVariant, setCurrentVariant] = useState<LocalSelectedVariant>({
     color: "",
     material: "",
     size: "",
   });
-  useEffect(() => {
-    if (product) {
-      setCurrentVariant({
-        color: product?.colors[0]?.name,
-        material: product?.materials[0]?.name,
-        size: product?.sizes[0]?.name,
-      });
-    }
-  }, [product]);
 
-  const handleFormSubmit = (evt) => {
+  const handleFormSubmit = (evt: FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
-    console.log(evt.target);
+    console.log(
+      `Adding a ${print.name} in ${currentVariant?.color} ${currentVariant?.material} to cart...`
+    );
   };
+
+  useEffect(() => {
+    if (materialOptions && colorOptions)
+      setCurrentVariant({
+        color: colorOptions.find((el) => el.inStock)?.name,
+        material: materialOptions.find((el) => el.inStock)?.name,
+        size: "",
+      });
+  }, [materialOptions, colorOptions]);
 
   return (
     <Transition.Root show={isOpen ?? false} as={Fragment}>
@@ -84,15 +83,16 @@ const QuickView: FC<QuickViewProps> = ({ isOpen, setIsOpen, print }) => {
 
                   <div className="grid w-full grid-cols-1 items-start gap-y-8 gap-x-6 sm:grid-cols-12 lg:gap-x-8">
                     <div className="aspect-w-2 aspect-h-3 overflow-hidden rounded-lg bg-gray-100 sm:col-span-4 lg:col-span-5">
-                      <img
-                        src={product?.images[0]?.src}
-                        alt={""}
+                      <Image
+                        src={print?.images[0]?.src ?? ""}
+                        alt={print?.images[0]?.alt ?? ""}
                         className="object-cover object-center"
+                        layout="fill"
                       />
                     </div>
                     <div className="sm:col-span-8 lg:col-span-7">
                       <h2 className="text-2xl font-bold text-gray-900 sm:pr-12">
-                        {product?.name}
+                        {print.name}
                       </h2>
 
                       <section
@@ -103,17 +103,15 @@ const QuickView: FC<QuickViewProps> = ({ isOpen, setIsOpen, print }) => {
                           Product information
                         </h3>
 
-                        <p className="text-2xl text-gray-900">
-                          ${product?.price}
-                        </p>
+                        <p className="text-2xl text-gray-900">${print.price}</p>
 
                         <div className="mt-3 text-gray-500">
-                          {product?.description}
+                          {print.description}
                         </div>
 
                         <div className="mt-3 text-gray-500">
-                          Current:{" "}
-                          {`${product?.name} - ${currentVariant?.material} - ${currentVariant?.color} - ${currentVariant?.size} `}
+                          Selected:{" "}
+                          {`${print.name} in ${currentVariant?.color}  ${currentVariant?.material} `}
                         </div>
                       </section>
 
@@ -126,34 +124,23 @@ const QuickView: FC<QuickViewProps> = ({ isOpen, setIsOpen, print }) => {
                         </h3>
 
                         <form onSubmit={handleFormSubmit}>
-                          {product && (
-                            <>
-                              {/* Colors */}
-                              {currentVariant.material && (
-                                <ColorOptions
-                                  colors={product.colors}
-                                  currentVariant={currentVariant}
-                                  setCurrentVariant={setCurrentVariant}
-                                />
-                              )}
-
-                              {/* Types */}
-
-                              <PrintOptions
-                                materials={product.materials}
-                                currentVariant={currentVariant}
-                                setCurrentVariant={setCurrentVariant}
-                              />
-
-                              {/* Sizes */}
-
-                              <SizeOptions
-                                sizes={product.sizes}
-                                currentVariant={currentVariant}
-                                setCurrentVariant={setCurrentVariant}
-                              />
-                            </>
+                          {colorOptions && materialOptions && (
+                            <ColorOptions
+                              colors={colorOptions}
+                              currentVariant={currentVariant}
+                              setCurrentVariant={setCurrentVariant}
+                            />
                           )}
+
+                          {/* Types */}
+                          {materialOptions && (
+                            <PrintOptions
+                              materials={materialOptions}
+                              currentVariant={currentVariant}
+                              setCurrentVariant={setCurrentVariant}
+                            />
+                          )}
+
                           <button
                             type="submit"
                             className="mt-6 flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"

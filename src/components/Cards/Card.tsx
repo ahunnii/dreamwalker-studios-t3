@@ -2,10 +2,15 @@ import Image from "next/image";
 import { FC, useEffect, useState } from "react";
 
 import QuickView from "./QuickView";
-import { SimpleProduct } from "./types";
-const Card: FC<SimpleProduct> = (props) => {
+import { Color, Material, SimpleProduct } from "./types";
+
+interface CardProps {
+  product: SimpleProduct;
+}
+
+const Card: FC<CardProps> = ({ product }) => {
   const [open, setOpen] = useState(false);
-  const { id, name, categories, price, images, tagline } = props;
+  const { id, name, categories, price, images, tagline } = product;
 
   return (
     <>
@@ -17,10 +22,10 @@ const Card: FC<SimpleProduct> = (props) => {
           {categories[0]?.name}
         </span>
 
-        <div className="  aspect-w-golden aspect-h-golden ">
+        <div className="  aspect-w-golden aspect-h-golden  transition duration-75 ease-in group-hover:cursor-pointer group-hover:opacity-75 group-hover:drop-shadow-lg">
           <Image
             src={images[0]?.src ?? ""}
-            className=" my-2 rounded-md  object-cover transition duration-75 ease-in group-hover:cursor-pointer group-hover:opacity-75 group-hover:drop-shadow-lg"
+            className=" my-2 rounded-md  object-cover"
             alt={images[0]?.alt ?? ""}
             layout="fill"
           />
@@ -35,7 +40,7 @@ const Card: FC<SimpleProduct> = (props) => {
         </div>
       </div>
 
-      <QuickView isOpen={open} setIsOpen={setOpen} print={id} />
+      {open && <QuickView isOpen={open} setIsOpen={setOpen} print={product} />}
     </>
   );
 };

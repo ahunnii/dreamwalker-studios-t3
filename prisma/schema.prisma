@@ -76,17 +76,19 @@ enum PrintType{
 model Material {
   id        String @id @default(cuid())
   name      String
+  inStock   Boolean @default(true)
   type      PrintType
   colors    Color[]
-  products  Product[]
+
 }
 
 
 model Color{
   id          String   @id @default(cuid())
   name        String
+  inStock   Boolean @default(true)
   materials   Material[]
-  products Product[]
+
 }
 
 
@@ -94,7 +96,7 @@ model Size {
   id String @id @default(cuid())
   name String
   priceModifier Float?
-  products Product[]
+
 }
 
 model Category{
@@ -126,7 +128,4 @@ model Product {
   description String
   price Float
   images Image[]
-  materials  Material[]
-  sizes Size[]
-  colors Color[]
 }

@@ -17,22 +17,27 @@ const Guide: NextPage = () => {
       <NavBar />
 
       <main className="mx-auto min-h-screen max-w-7xl px-2 sm:px-6 lg:px-8">
-        <h1 className="text-5xl font-extrabold leading-normal text-gray-700 md:text-[5rem]">
-          Print Purchasing <span className="text-purple-300">Guide</span>
+        <h1 className="mb-5 mt-8 text-5xl  font-bold tracking-tight text-gray-700 md:text-[5rem]">
+          Print Purchasing <span className="text-blue-600">Guide</span>
         </h1>
-        <p className="text-2xl text-gray-700">
+
+        <p className="text-xl">
           Not sure what the difference is between PLA and Resin? We got you
           covered!
         </p>
 
-        <h2>PLA vs Resin</h2>
-        <p>
-          TL;DR if you want a higher quality print, go with the resin. If you
-          want a stronger print that you plan on finishing yourself, go with
-          PLA.{" "}
+        <h2 className="mt-8 mb-2 text-2xl font-semibold text-blue-800">
+          PLA vs Resin
+        </h2>
+        <p className="my-2 text-lg">
+          <span className="text-blue-500"> TL;DR </span>if you want a higher
+          quality print, go with the resin. If you want a stronger print that
+          you plan on finishing yourself, go with PLA.{" "}
         </p>
-        <p>We currently offer two ways to print your items: PLA and Resin.</p>
-        <p>
+        <p className="my-2 text-lg">
+          We currently offer two ways to print your items: PLA and Resin.
+        </p>
+        <p className="my-2 text-lg">
           PLA is a recyclable, natural thermoplastic material used in Fused
           Deposition Modeling (FDM) printers. These types of prints are perfect
           for cosplay, utility, or models that really don&apos;t need much
@@ -40,7 +45,7 @@ const Guide: NextPage = () => {
           PLA print to the best of our abilities, but you may need to finish out
           some of the imperfections we may have missed.
         </p>
-        <p>
+        <p className="my-2 text-lg">
           Photopolymer resin is a light sensitive, liquid plastic used in
           stereolithography (SLA) printers. These prints are able to reach high
           quality details, thanks to the printer&apos;s 4k resolution screen.
@@ -51,9 +56,11 @@ const Guide: NextPage = () => {
           expensive than PLA, hence the slight up charge.
         </p>
 
-        <h2>Available Sizes</h2>
-        <p>We currently offer the following sizes: </p>
-        <ul>
+        <h2 className="mt-8 mb-2 text-2xl font-semibold text-blue-800">
+          Available Sizes
+        </h2>
+        <p className="my-2 text-lg">We currently offer the following sizes: </p>
+        <ul className="my-2 list-inside list-disc text-lg">
           <li>
             Mini: Think small enough for a table top game like Dungeons and
             Dragons or Starcraft.{" "}
@@ -72,7 +79,7 @@ const Guide: NextPage = () => {
             anything that requires a f*** ton of time to do.
           </li>
         </ul>
-        <p>
+        <p className="my-2 text-lg">
           You may have noticed that these aren&apos;t exact measurements. For
           the time being, these sizes are just estimates based on the prints
           available. As we grow, we will offer more, exact measurements. Until
@@ -80,8 +87,10 @@ const Guide: NextPage = () => {
           turn out.{" "}
         </p>
 
-        <h2>Available Colors</h2>
-        <p>
+        <h2 className="mt-8 mb-2 text-2xl font-semibold text-blue-800">
+          Available Colors
+        </h2>
+        <p className="my-2 text-lg">
           Since we don&apos;t offer painting services at the moment, we try to
           offset that with different color options. They are wildly
           inconsistent. We will always have gray in stock for both types of
@@ -89,10 +98,6 @@ const Guide: NextPage = () => {
           for both. If there are no colors available, that just means the model
           will be printed on whatever color we currently have.
         </p>
-        <div className="flex w-full items-center justify-center pt-6 text-2xl text-blue-500">
-          {hello.data ? <p>{hello.data.greeting}</p> : <p>Loading..</p>}
-        </div>
-        <AuthShowcase />
       </main>
 
       <footer className="border-t-2 py-5 text-center">
@@ -105,28 +110,3 @@ const Guide: NextPage = () => {
 };
 
 export default Guide;
-
-const AuthShowcase: React.FC = () => {
-  const { data: secretMessage } = trpc.auth.getSecretMessage.useQuery();
-
-  const { data: sessionData } = useSession();
-
-  return (
-    <div className="flex flex-col items-center justify-center gap-2">
-      {sessionData && (
-        <p className="text-2xl text-blue-500">
-          Logged in as {sessionData?.user?.name}
-        </p>
-      )}
-      {secretMessage && (
-        <p className="text-2xl text-blue-500">{secretMessage}</p>
-      )}
-      <button
-        className="rounded-md border border-black bg-violet-50 px-4 py-2 text-xl shadow-lg hover:bg-violet-100"
-        onClick={sessionData ? () => signOut() : () => signIn()}
-      >
-        {sessionData ? "Sign out" : "Sign in"}
-      </button>
-    </div>
-  );
-};
