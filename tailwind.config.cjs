@@ -2,7 +2,15 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      aspectRatio: {
+        golden: "1.618",
+      },
+      backgroundImage: {
+        "burnt-titanium": "url('/assets/colors/burnt_titanium_alt.png')",
+        rainbow: "url('/assets/colors/rainbow_alt.png')",
+      },
+    },
   },
   plugins: [require("@tailwindcss/aspect-ratio")],
 };

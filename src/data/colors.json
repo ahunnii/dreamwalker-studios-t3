@@ -1,0 +1,28 @@
+{
+	"XXX-SLA": {
+		"color": "Random ",
+		"preview": "/src/assets/colors/ceramic_grey.png",
+		"icon": true
+	},
+	"XXX-FDM": {
+		"color": "Random ",
+		"preview": "/src/assets/colors/ceramic_grey.png",
+		"icon": true
+	},
+	"EWG-SLA": {
+		"color": "Ceramic Grey",
+		"preview": "/src/assets/colors/ceramic_grey.png",
+		"icon": false
+	},
+	"EWSB-SLA": {
+		"color": "Smoky Black",
+		"preview": "/src/assets/colors/smokey_black.png",
+		"icon": false
+	},
+	"EWCB-SLA": { "color": "Clear Blue", "preview": "/src/assets/colors/clear_blue.png", "icon": false },
+	"EWCG-SLA": { "color": "Clear Green", "preview": "/src/assets/colors/clear_green.png", "icon": false },
+	"RA-FDM": { "color": "Rainbow", "preview": "/src/assets/colors/rainbow.png", "icon": false },
+	"BT-FDM": { "color": "Burnt Titanium", "preview": "/src/assets/colors/burnt_titanium.png", "icon": false },
+	"MA-FDM": { "color": "Granite", "preview": "/src/assets/colors/granite.png", "icon": false },
+	"BL-FDM": { "color": "Black", "preview": "/src/assets/colors/black.png", "icon": false }
+}

@@ -1,0 +1,36 @@
+[
+	{
+		"id": "mewtwo_thinker",
+		"name": "Mewtwo Thinker",
+		"tagline": "Why do I exist?",
+		"category": "Video Games",
+		"tags": ["Pokemon, Figure, Legendary"],
+		"description": "Ponder your existential dread with this Mewtwo print. Like you, it too wonders why it was brought into existence. Maybe ask your mom. ",
+		"price": 4.99,
+		"images": [
+			{
+				"imageSrc": "/src/assets/mewtwo_thinker.jpg",
+				"imageAlt": "MewTwo in a thinker like pose"
+			}
+		],
+		"variant_options": {
+			"material": ["PLA", "RESIN"],
+			"size": [
+				{ "name": "MINI", "price_modifier": -1.0 },
+				{ "name": "SMALL" },
+				{ "name": "MEDIUM", "price_modifier": 12.0 }
+			],
+			"color": [
+				{ "name": "Gray", "material": ["PLA", "RESIN"] },
+				{ "name": "Black", "material": ["PLA", "RESIN"] },
+				{ "name": "White", "material": ["PLA", "RESIN"] },
+
+				{ "name": "Translucent Blue", "material": ["RESIN"] },
+				{ "name": "Translucent Green", "material": ["RESIN"] },
+				{ "name": "Burnt Titanium", "material": ["PLA"] },
+				{ "name": "Rainbow", "material": ["PLA"] }
+			]
+		},
+		"in_stock": [{ "color": "Gray", "size": "SMALL", "material": "PLA", "quantity": 1 }]
+	}
+]

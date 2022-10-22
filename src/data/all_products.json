@@ -1,0 +1,1627 @@
+[
+	{
+		"name": "HEFESTO BUST & EPIC BOSS (PRE-SUPPORTED)",
+		"url": "https://www.myminifactory.com/object/3d-print-hefesto-bust-epic-boss-pre-supported-187259",
+		"price": {
+			"stl": 15.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 0,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/615201635228d/images/720X720-render-mmf.jpg"],
+		"tags": ["Bust", "Boss"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "HOUSE MORA SLATHAAI - MODULAR C",
+		"url": "https://www.myminifactory.com/object/3d-print-house-mora-slathaai-modular-c-228232",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 1,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a45befbf1be/images/720X720-slathaai-of-house-mora-c.jpg"
+		],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SLATHAAI OF HOUSE MORA (COMPLETE SET - 38)",
+		"url": "https://www.myminifactory.com/object/3d-print-slathaai-of-house-mora-complete-set-38-226476",
+		"price": {
+			"stl": 40.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 2,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/629736581ae74/images/720X720-0complete-slathaai-of-hose-mora.jpg"
+		],
+		"tags": ["Complete Set", "Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "ILTHUS MORA THE MAGUS - SLATHAAI OF HOUSE MORA HERO",
+		"url": "https://www.myminifactory.com/object/3d-print-ilthus-mora-the-magus-slathaai-of-house-mora-hero-228223",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 3,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a450e862443/images/720X720-ilthus-mora-the-magus-1.jpg"
+		],
+		"tags": ["Slathaai of House Mora", "Hero"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "OSLAG THE ZEEKMASTER - SLATHAAI OF HOUSE MORA HERO",
+		"url": "https://www.myminifactory.com/object/3d-print-oslag-the-zeekmaster-slathaai-of-house-mora-hero-228224",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 4,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a4527e1d601/images/720X720-oslag-the-zeekmaster-1.jpg"
+		],
+		"tags": ["Slathaai of House Mora", "Hero"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "OSLAG ON CHUULZK THE HIVE CRAWLER (EPIC BEAST/MOUNT) - SLATHAAI OF HOUSE MORA",
+		"url": "https://www.myminifactory.com/object/3d-print-oslag-on-chuulzk-the-hive-crawler-epic-beast-mount-slathaai-of-house-mora-228225",
+		"price": {
+			"stl": 12.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 5,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a453c114b58/images/720X720-oslag-on-chuulzk-the-hive-crawler.jpg"
+		],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SLITHIS THE ENCHANTRESS - SLATHAAI OF HOUSE MORA BEAUTY (FANTASY PINUP)",
+		"url": "https://www.myminifactory.com/object/3d-print-slithis-the-enchantress-slathaai-of-house-mora-beauty-fantasy-pinup-228226",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 6,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a4568713187/images/720X720-slithis-the-enchantres.jpg"
+		],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "ZEEK EGGS - SLATHAAI OF HOUSE MORA PIECE TERRAIN",
+		"url": "https://www.myminifactory.com/object/3d-print-zeek-eggs-slathaai-of-house-mora-piece-terrain-228227",
+		"price": {
+			"stl": 3.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 7,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a457a7392e4/images/720X720-zeek-eggs-scatter-terrain.jpg"
+		],
+		"tags": ["Slathaai of House Mora", "Terrain"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "HIVE COLOSSI - 4 MODULAR UNITS - SLATHAAI OF HOUSE MORA",
+		"url": "https://www.myminifactory.com/object/3d-print-hive-colossi-4-modular-units-slathaai-of-house-mora-228229",
+		"price": {
+			"stl": 12.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 8,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62a458648bfc6/images/720X720-hive-colossi.jpg"],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "HOUSE MORA SLATHAAI - MODULAR B",
+		"url": "https://www.myminifactory.com/object/3d-print-house-mora-slathaai-modular-b-228231",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 9,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a45b6fb84e3/images/720X720-slathaai-of-house-mora-b-1.jpg"
+		],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "HOUSE MORA SLATHAAI - MODULAR A",
+		"url": "https://www.myminifactory.com/object/3d-print-house-mora-slathaai-modular-a-228230",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 10,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a45a6b78e73/images/720X720-slathaai-of-house-mora-a.jpg"
+		],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "HOUSE MORA SLATHAAI - MODULAR D",
+		"url": "https://www.myminifactory.com/object/3d-print-house-mora-slathaai-modular-d-228234",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 11,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a45c70742e8/images/720X720-slathaai-of-house-mora-d.jpg"
+		],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "HOUSE MORA SLATHAAI - MODULAR E",
+		"url": "https://www.myminifactory.com/object/3d-print-house-mora-slathaai-modular-e-228235",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 12,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a45cfa5c9dd/images/720X720-slathaai-of-house-mora-e.jpg"
+		],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "HOUSE MORA SLATHAAI - MODULAR F",
+		"url": "https://www.myminifactory.com/object/3d-print-house-mora-slathaai-modular-f-228236",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 13,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a45d72dd976/images/720X720-slathaai-of-house-mora-f.jpg"
+		],
+		"tags": ["Slathaai of House Mora"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "WEAPONS & SPELLS FOR LOOT & RACKS: SLATHAAI OF HOUSE MORA",
+		"url": "https://www.myminifactory.com/object/3d-print-weapons-spells-for-loot-racks-slathaai-of-house-mora-228237",
+		"price": {
+			"stl": 3.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 14,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a45e37756e1/images/720X720-standalone-weapons.jpg"
+		],
+		"tags": ["Slathaai of House Mora", "Weapon Pack"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "GREAT LINNORM OF FROSTHEART",
+		"url": "https://www.myminifactory.com/object/3d-print-great-linnorm-of-frostheart-228566",
+		"price": {
+			"stl": 12.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 15,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62a79fd77b3a9/images/720X720-render-great-linnorm-of-skutagaard-1.jpg"
+		],
+		"tags": ["Boss"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "WEAPONS FOR LOOT & RACKS: DARKNESS OF THE LICH LORD",
+		"url": "https://www.myminifactory.com/object/3d-print-weapons-for-loot-racks-darkness-of-the-lich-lord-226818",
+		"price": {
+			"stl": 3.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 16,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62988974f02e6/images/720X720-weapons-lichlord.jpg"
+		],
+		"tags": ["Darkness of the Lich Lord", "Weapon Pack"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SKUTAGAARD DRAUGAR - DARKNESS OF THE LICH LORD MODULAR A",
+		"url": "https://www.myminifactory.com/object/3d-print-skutagaard-draugar-darkness-of-the-lich-lord-modular-a-226809",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 17,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/629885dc5d028/images/720X720-draugra-2.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Draugar", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SKUTAGAARD DRAUGAR - DARKNESS OF THE LICH LORD MODULAR D",
+		"url": "https://www.myminifactory.com/object/3d-print-skutagaard-draugar-darkness-of-the-lich-lord-modular-d-223238",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 18,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62794bf1b458c/images/720X720-draugrd-2-1.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Draugar", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SKUTAGAARD DRAUGAR - DARKNESS OF THE LICH LORD MODULAR E",
+		"url": "https://www.myminifactory.com/object/3d-print-skutagaard-draugar-darkness-of-the-lich-lord-modular-e-223239",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 19,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62794c3a7cf09/images/720X720-draugre-2-1.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Draugar", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SKUTAGAARD DRAUGAR - DARKNESS OF THE LICH LORD MODULAR F",
+		"url": "https://www.myminifactory.com/object/3d-print-skutagaard-draugar-darkness-of-the-lich-lord-modular-f-223240",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 20,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62794ca992e69/images/720X720-draugrf-2-1.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Draugar", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SKUTAGAARD DRAUGAR - DARKNESS OF THE LICH LORD MODULAR C",
+		"url": "https://www.myminifactory.com/object/3d-print-skutagaard-draugar-darkness-of-the-lich-lord-modular-c-223236",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 21,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62794b56487b1/images/720X720-draugrc-2-1.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Draugar", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SKUTAGAARD DRAUGAR - DARKNESS OF THE LICH LORD MODULAR B",
+		"url": "https://www.myminifactory.com/object/3d-print-skutagaard-draugar-darkness-of-the-lich-lord-modular-b-223235",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 22,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62794af89aaaf/images/720X720-draugrb-2-1.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Draugar", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SKUTAGAARD WRAITHS - 4 MODULAR UNITS - DARKNESS OF THE LICH LORD",
+		"url": "https://www.myminifactory.com/object/3d-print-skutagaard-wraiths-4-modular-units-darkness-of-the-lich-lord-223232",
+		"price": {
+			"stl": 12.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 23,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/627946c788007/images/720X720-wraithabcd.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Wraith", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DRAUGR COFFIN - DARKNESS OF THE LICH LORD TERRAIN PIECE",
+		"url": "https://www.myminifactory.com/object/3d-print-draugr-coffin-darkness-of-the-lich-lord-terrain-piece-223230",
+		"price": {
+			"stl": 3.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 24,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/6279461e9cb9c/images/720X720-coffins.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Terrain"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "BODIL THE WRIGHT - DARKNESS OF THE LICH LORD BEAUTY / HEROINE (FANTASY PINUP)",
+		"url": "https://www.myminifactory.com/object/3d-print-bodil-the-wright-darkness-of-the-lich-lord-beauty-heroine-fantasy-pinup-223229",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 25,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/627942c3be858/images/720X720-bodilthewright.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Hero"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "THANE HULGROF THE DROWNED - DARKNESS OF THE LICH LORD EPIC BOSS/HERO",
+		"url": "https://www.myminifactory.com/object/3d-print-thane-hulgrof-the-drowned-darkness-of-the-lich-lord-epic-boss-hero-223226",
+		"price": {
+			"stl": 12.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 26,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/6279418e41741/images/720X720-hulgrof1.JPG"],
+		"tags": ["Boss", "Darkness of the Lich Lord", "Hero"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "KING SKUTAGAARD: THE LICH LORD - DARKNESS OF THE LICH LORD EPIC BOSS",
+		"url": "https://www.myminifactory.com/object/3d-print-king-skutagaard-the-lich-lord-darkness-of-the-lich-lord-epic-boss-223225",
+		"price": {
+			"stl": 12.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 27,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/6279406230204/images/720X720-lichlord.JPG"],
+		"tags": ["Boss", "Darkness of the Lich Lord", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DARKNESS OF THE LICH LORD (PRESUPPORTED)",
+		"url": "https://www.myminifactory.com/object/3d-print-darkness-of-the-lich-lord-presupported-221652",
+		"price": {
+			"stl": 40.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 28,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/626e821bf13cf/images/720X720-lichlord-bundle2.jpg"
+		],
+		"tags": ["Darkness of the Lich Lord"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "BALDUR THE INVINCIBLE - DARKNESS OF THE LICH LORD HERO",
+		"url": "https://www.myminifactory.com/object/3d-print-baldur-the-invincible-darkness-of-the-lich-lord-hero-223224",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 29,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62793d6e95110/images/720X720-baldur.JPG"],
+		"tags": ["Darkness of the Lich Lord", "Hero"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "THE LUSTY DRACONIAN MAID - THE DRAGONGUARD BEAUTY (FANTASY PINUP)",
+		"url": "https://www.myminifactory.com/object/3d-print-the-lusty-draconian-maid-the-dragonguard-beauty-fantasy-pinup-143623",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 30,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/5fc53a8dd51a8/images/720X720-supp-maid3.jpg"],
+		"tags": [],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "WEAPONS FOR LOOT & RACKS: DWARVEN MOUNTAINEERS OF SKUTAGAARD",
+		"url": "https://www.myminifactory.com/object/3d-print-weapons-for-loot-racks-dwarven-mountaineers-of-skutagaard-221387",
+		"price": {
+			"stl": 3.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 31,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/626cfe363ac56/images/720X720-weapons-dwarven-mountaineers.jpg"
+		],
+		"tags": ["Weapon Pack", "Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DWARVEN MOUNTAINEERS OF SKUTAGAARD - MODULAR F",
+		"url": "https://www.myminifactory.com/object/3d-print-dwarven-mountaineers-of-skutagaard-modular-f-221248",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 32,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c24f0c3576/images/720X720-modularf.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DWARVEN MOUNTAINEERS OF SKUTAGAARD - MODULAR E",
+		"url": "https://www.myminifactory.com/object/3d-print-dwarven-mountaineers-of-skutagaard-modular-e-221246",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 33,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c24a955799/images/720X720-modulare.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DWARVEN MOUNTAINEERS OF SKUTAGAARD - MODULAR D",
+		"url": "https://www.myminifactory.com/object/3d-print-dwarven-mountaineers-of-skutagaard-modular-d-221245",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 34,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c24542180f/images/720X720-modulard.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DWARVEN MOUNTAINEERS OF SKUTAGAARD - MODULAR C",
+		"url": "https://www.myminifactory.com/object/3d-print-dwarven-mountaineers-of-skutagaard-modular-c-221244",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 35,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c23f91d0a0/images/720X720-modularc.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DWARVEN MOUNTAINEERS OF SKUTAGAARD - MODULAR B",
+		"url": "https://www.myminifactory.com/object/3d-print-dwarven-mountaineers-of-skutagaard-modular-b-221242",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 36,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c23962a32a/images/720X720-modularb.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DWARVEN MOUNTAINEERS OF SKUTAGAARD - MODULAR A",
+		"url": "https://www.myminifactory.com/object/3d-print-dwarven-mountaineers-of-skutagaard-modular-a-221241",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 37,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c2213b5a55/images/720X720-modulara.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DWARVEN RAM RIDERS - 4 MODULAR UNITS - DWARVEN MOUNTAINEERS OF SKUTAGAARD",
+		"url": "https://www.myminifactory.com/object/3d-print-dwarven-ram-riders-4-modular-units-dwarven-mountaineers-of-skutagaard-221238",
+		"price": {
+			"stl": 12.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 38,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c1ffde8adb/images/720X720-ramriders.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "ANCESTRAL DWARVEN CAIRN - DWARVEN MOUNTAINEERS OF SKUTAGAARD TERRAIN PIECE",
+		"url": "https://www.myminifactory.com/object/3d-print-ancestral-dwarven-cairn-dwarven-mountaineers-of-skutagaard-terrain-piece-221237",
+		"price": {
+			"stl": 3.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 39,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c1ed650701/images/720X720-dwarven-cairn.jpg"],
+		"tags": ["Terrain", "Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "GUDRUN THE SKALD - DWARVEN MOUNTAINEERS OF SKUTAGAARD BEAUTY (FANTASY PINUP)",
+		"url": "https://www.myminifactory.com/object/3d-print-gudrun-the-skald-dwarven-mountaineers-of-skutagaard-beauty-fantasy-pinup-221235",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 40,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c19bff4025/images/720X720-gudrunpinup1.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "GERTA ON LOK-GHOBAR (EPIC BEAST/MOUNT) - DWARVEN MOUNTAINEERS OF SKUTAGAARD",
+		"url": "https://www.myminifactory.com/object/3d-print-gerta-on-lok-ghobar-epic-beast-mount-dwarven-mountaineers-of-skutagaard-221228",
+		"price": {
+			"stl": 8.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 41,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/626c15664a3b8/images/720X720-gerta-lok-ghobar.jpg"
+		],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "GERTA, JARL OF HUSKALD - DWARVEN MOUNTAINEERS OF SKUTAGAARD",
+		"url": "https://www.myminifactory.com/object/3d-print-gerta-jarl-of-huskald-dwarven-mountaineers-of-skutagaard-221224",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 42,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c11514b718/images/720X720-gerda.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "ULFGAR RUNEKEEPER - DWARVEN MOUNTAINEERS OF SKUTAGAARD",
+		"url": "https://www.myminifactory.com/object/3d-print-ulfgar-runekeeper-dwarven-mountaineers-of-skutagaard-221221",
+		"price": {
+			"stl": 5.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 43,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/626c0e23c3c9a/images/720X720-ulfgar1.jpg"],
+		"tags": ["Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "WELCOME BOX BUNDLE",
+		"url": "https://www.myminifactory.com/object/3d-print-welcome-box-bundle-218208",
+		"price": {
+			"stl": 36.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 44,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/624c19e37e954/images/720X720-welcome-box-complete.jpg"
+		],
+		"tags": ["Complete Set"],
+		"modifiers": ["owned=0.5"],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "DWARVEN MOUNTAINEERS OF SKUTAGAARD (PRESUPPORTED)",
+		"url": "https://www.myminifactory.com/object/3d-print-dwarven-mountaineers-of-skutagaard-presupported-217165",
+		"price": {
+			"stl": 36.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 45,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/6246c154477de/images/720X720-dwarven-mountaineers-bundlecomplete-1.jpg"
+		],
+		"tags": ["Complete Set", "Dwarf", "Dwarven Mountaineers of Skutagaard"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "WEAPONS FOR LOOT & RACKS: SVARTWOOD TROLLS",
+		"url": "https://www.myminifactory.com/object/3d-print-weapons-for-loot-racks-svartwood-trolls-216943",
+		"price": {
+			"stl": 3.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 46,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/6245802187b94/images/720X720-svartwood-trolls-weapons.jpg"
+		],
+		"tags": ["Weapon Pack", "Svartwood Troll Hunters"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SVARTWOOD TROLLS (PRESUPPORTED)",
+		"url": "https://www.myminifactory.com/object/3d-print-svartwood-trolls-presupported-216941",
+		"price": {
+			"stl": 40.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 47,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": [
+			"https://cdn2.myminifactory.com/assets/object-assets/62457edc1e74c/images/720X720-svartwood-trolls-bundle.jpg"
+		],
+		"tags": ["Svartwood Troll Hunters"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SVARTWOOD TROLL HUNTERS - MODULAR D",
+		"url": "https://www.myminifactory.com/object/3d-print-svartwood-troll-hunters-modular-d-216939",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 48,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62457e4aa10b2/images/720X720-troll-hunter-d.jpg"],
+		"tags": ["Svartwood Troll Hunters"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SVARTWOOD TROLL HUNTERS - MODULAR C",
+		"url": "https://www.myminifactory.com/object/3d-print-svartwood-troll-hunters-modular-c-216936",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 49,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62457dd31d70c/images/720X720-troll-hunter-c.jpg"],
+		"tags": ["Svartwood Troll Hunters"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	},
+	{
+		"name": "SVARTWOOD TROLL HUNTERS - MODULAR B",
+		"url": "https://www.myminifactory.com/object/3d-print-svartwood-troll-hunters-modular-b-216934",
+		"price": {
+			"stl": 4.0,
+			"print": 20.0,
+			"painted": 80.0
+		},
+		"id": 50,
+		"category": "Miniatures and Figures",
+		"vendor": {
+			"name": "Artisan Guild",
+			"shop_url": "https://www.myminifactory.com/users/Artisan_Guild",
+			"patreon_url": "https://www.patreon.com/ArtisanGuild/posts"
+		},
+		"gallery": ["https://cdn2.myminifactory.com/assets/object-assets/62457d7e41e2a/images/720X720-troll-hunter-b.jpg"],
+		"tags": ["Svartwood Troll Hunters"],
+		"modifiers": [],
+		"variants": [
+			"XXX-SLA",
+			"XXX-FDM",
+			"EWG-SLA",
+			"EWSB-SLA",
+			"EWCB-SLA",
+			"EWCG-SLA",
+			"RA-FDM",
+			"BT-FDM",
+			"MA-FDM",
+			"BL-FDM"
+		]
+	}
+]

@@ -21,4 +21,11 @@ export default defineNextConfig({
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    domains: [
+      "avatars.dicebear.com",
+      "cdn.discordapp.com",
+      "res.cloudinary.com",
+    ],
+  },
 });
