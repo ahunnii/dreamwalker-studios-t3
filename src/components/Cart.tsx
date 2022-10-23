@@ -3,7 +3,6 @@ import { ShoppingBagIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Product } from "@prisma/client";
 import { Fragment, MouseEventHandler, useEffect, useState } from "react";
 import { useShoppingCart } from "../context/ShoppingCartContext";
-import { useLocalStorage } from "../hooks/useLocalStorage";
 
 import getStripe from "../utils/get-stripejs";
 import { postRequest } from "../utils/postRequest";
