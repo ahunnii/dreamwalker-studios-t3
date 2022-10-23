@@ -128,4 +128,4 @@ model Product {
   description String
   price Float
   images Image[]
-}
+}// Variants

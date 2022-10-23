@@ -7,9 +7,11 @@ import {
 import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 
 import { useRouter } from "next/router";
+import { useShoppingCart } from "../context/ShoppingCartContext";
+import Cart from "./Cart";
 const navigation = [
   { name: "Home", href: "/", current: true },
   { name: "Products", href: "/shop", current: false },
@@ -64,12 +66,12 @@ export default function NavBar() {
                       <Link
                         key={item.name}
                         href={item.href}
-                        aria-current={item.href === asPath ? "page" : undefined}
+                        aria-current={item.href === "yeet" ? "page" : undefined}
                         className="cursor-pointer"
                       >
                         <span
                           className={classNames(
-                            item.href === asPath
+                            item.href === "yeet"
                               ? "bg-gray-900 text-white"
                               : "text-gray-300 hover:bg-gray-700 hover:text-white",
                             "cursor-pointer rounded-md px-3 py-2 text-sm font-medium"
@@ -84,16 +86,7 @@ export default function NavBar() {
               </div>
               <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
                 <div className="ml-4 flow-root lg:ml-6">
-                  <a href="#" className="group -m-2 flex items-center p-2">
-                    <ShoppingBagIcon
-                      className="h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-white"
-                      aria-hidden="true"
-                    />
-                    <span className="ml-2 text-sm font-medium text-gray-400 group-hover:text-white">
-                      0
-                    </span>
-                    <span className="sr-only">items in cart, view bag</span>
-                  </a>
+                  <Cart />
                 </div>
                 {/* Profile dropdown */}
                 <Menu as="div" className="relative ml-3">

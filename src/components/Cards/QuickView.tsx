@@ -4,6 +4,7 @@ import { XMarkIcon } from "@heroicons/react/24/outline";
 
 import Image from "next/image";
 import { FC, FormEvent, Fragment, useEffect, useState } from "react";
+import { useShoppingCart } from "../../context/ShoppingCartContext";
 
 import { trpc } from "../../utils/trpc";
 
@@ -22,6 +23,13 @@ const QuickView: FC<QuickViewProps> = ({ isOpen, setIsOpen, print }) => {
   const { data: colorOptions } = trpc.product.getColorOptions.useQuery();
   const { data: materialOptions } = trpc.product.getMaterialOptions.useQuery();
 
+  const {
+    getItemQuantity,
+    increaseItemQuantity,
+    decreaseItemQuantity,
+    removeFromCart,
+  } = useShoppingCart();
+
   const [currentVariant, setCurrentVariant] = useState<LocalSelectedVariant>({
     color: "",
     material: "",
@@ -30,9 +38,10 @@ const QuickView: FC<QuickViewProps> = ({ isOpen, setIsOpen, print }) => {
 
   const handleFormSubmit = (evt: FormEvent<HTMLFormElement>) => {
     evt.preventDefault();
-    console.log(
-      `Adding a ${print.name} in ${currentVariant?.color} ${currentVariant?.material} to cart...`
-    );
+    const variant = `${currentVariant?.color} ${currentVariant?.material}`;
+
+    increaseItemQuantity(`${print.id}___${variant}`);
+    console.log(`Adding a ${print.name} in ${variant} to cart...`);
   };
 
   useEffect(() => {

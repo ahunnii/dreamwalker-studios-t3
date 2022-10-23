@@ -1,16 +1,17 @@
 import type { NextPage } from "next";
-import { signIn, signOut, useSession } from "next-auth/react";
+
 import Head from "next/head";
 
 import Card from "../components/Cards/Card";
-import { LocalProduct } from "../components/Cards/types";
+
 import CustomJob from "../components/CustomJob";
 import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
 import { trpc } from "../utils/trpc";
+
 const Home: NextPage = () => {
-  const hello = trpc.example.hello.useQuery({ text: "from tRPC" });
   const { data: products } = trpc.product.getAll.useQuery();
+
   return (
     <>
       <Head>
