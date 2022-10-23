@@ -1,16 +1,10 @@
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import {
-  Bars3Icon,
-  ShoppingBagIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useSession } from "next-auth/react";
 import Image from "next/image";
 import Link from "next/link";
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 
-import { useRouter } from "next/router";
-import { useShoppingCart } from "../context/ShoppingCartContext";
 import Cart from "./Cart";
 const navigation = [
   { name: "Home", href: "/", current: true },
@@ -24,8 +18,6 @@ function classNames(...classes: string[]) {
 }
 
 export default function NavBar() {
-  const { asPath } = useRouter();
-
   const { data: sessionData } = useSession();
   return (
     <Disclosure as="nav" className="bg-gray-800">

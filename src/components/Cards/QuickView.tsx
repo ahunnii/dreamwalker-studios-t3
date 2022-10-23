@@ -23,12 +23,7 @@ const QuickView: FC<QuickViewProps> = ({ isOpen, setIsOpen, print }) => {
   const { data: colorOptions } = trpc.product.getColorOptions.useQuery();
   const { data: materialOptions } = trpc.product.getMaterialOptions.useQuery();
 
-  const {
-    getItemQuantity,
-    increaseItemQuantity,
-    decreaseItemQuantity,
-    removeFromCart,
-  } = useShoppingCart();
+  const { increaseItemQuantity } = useShoppingCart();
 
   const [currentVariant, setCurrentVariant] = useState<LocalSelectedVariant>({
     color: "",

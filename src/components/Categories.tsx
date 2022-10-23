@@ -1,6 +1,6 @@
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { FC, Fragment, useEffect, useRef, useState } from "react";
+import { FC, Fragment } from "react";
 
 interface Category {
   id: string;
@@ -52,10 +52,15 @@ const CategorySelection: FC<CategoryProps> = ({ categories }) => {
 
 export default CategorySelection;
 
-function EditInactiveIcon(props) {
+type IconProps = {
+  className: string;
+  // "aria-hidden": string;
+};
+function EditInactiveIcon(props: IconProps) {
   return (
     <svg
       {...props}
+      aria-hidden="true"
       viewBox="0 0 20 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -70,10 +75,11 @@ function EditInactiveIcon(props) {
   );
 }
 
-function EditActiveIcon(props) {
+function EditActiveIcon(props: IconProps) {
   return (
     <svg
       {...props}
+      aria-hidden="true"
       viewBox="0 0 20 20"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -98,9 +104,9 @@ const CategoryItem: FC<Category> = ({ name }) => {
           } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
         >
           {active ? (
-            <EditActiveIcon className="mr-2 h-5 w-5" aria-hidden="true" />
+            <EditActiveIcon className="mr-2 h-5 w-5" />
           ) : (
-            <EditInactiveIcon className="mr-2 h-5 w-5" aria-hidden="true" />
+            <EditInactiveIcon className="mr-2 h-5 w-5" />
           )}
           {name}
         </button>

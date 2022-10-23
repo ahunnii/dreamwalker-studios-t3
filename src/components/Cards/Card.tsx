@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { FC, useEffect, useState } from "react";
+import { FC, useState } from "react";
 
 import QuickView from "./QuickView";
-import { Color, Material, SimpleProduct } from "./types";
+import { SimpleProduct } from "./types";
 
 interface CardProps {
   product: SimpleProduct;
@@ -10,7 +10,7 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ product }) => {
   const [open, setOpen] = useState(false);
-  const { id, name, categories, price, images, tagline } = product;
+  const { name, categories, price, images, tagline } = product;
 
   return (
     <>
