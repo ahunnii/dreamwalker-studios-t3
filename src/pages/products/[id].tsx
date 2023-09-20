@@ -1,3 +1,4 @@
+import { CategoryOption } from "@prisma/client";
 import type { NextPage } from "next";
 
 import { signIn, signOut, useSession } from "next-auth/react";
@@ -15,9 +16,7 @@ const Product: NextPage = () => {
   const [isUploading, setIsUploading] = useState(false);
   const [uploadingNewImage, setUploadingNewImage] = useState(false);
   const [imageId, setImageId] = useState("");
-  const [selectedCategories, setSelectedCategories] = useState<Array<string>>(
-    []
-  );
+  const [selectedCategories, setSelectedCategories] = useState<string>("Misc");
   const [selectedTags, setSelectedTags] = useState<Array<string>>([]);
   const postId = router.query.id as string;
   const productUtil = trpc.useContext();
@@ -89,8 +88,7 @@ const Product: NextPage = () => {
 
   useEffect(() => {
     if (product && product.images) setImageId(product?.images[0]?.id ?? "");
-    if (product && product.categories)
-      setSelectedCategories(product?.categories.map((category) => category.id));
+    if (product && product.category) setSelectedCategories(product?.category);
     if (product && product.tags)
       setSelectedTags(product?.tags.map((tag) => tag.id));
   }, [product]);
@@ -109,7 +107,7 @@ const Product: NextPage = () => {
       name: e.target.elements["name"].value,
       price: parseFloat(e.target.elements["price"].value),
       tagline: e.target.elements["tagline"].value,
-      categories: selectedCategories,
+      category: selectedCategories,
       tags: selectedTags,
     });
   };
@@ -119,13 +117,8 @@ const Product: NextPage = () => {
   };
 
   const handleCategoriesUpdate = (id: string) => {
-    if (selectedCategories.includes(id))
-      setSelectedCategories(
-        selectedCategories.filter((category) => category != id)
-      );
-    else setSelectedCategories([...selectedCategories, id]);
+    setSelectedCategories(id as CategoryOption);
   };
-
   const handleTagsUpdate = (id: string) => {
     if (selectedTags.includes(id))
       setSelectedTags(selectedTags.filter((tag) => tag != id));
@@ -219,21 +212,22 @@ const Product: NextPage = () => {
               </label>
               <div className="my-2" id="categories">
                 {categories &&
-                  categories.map((c) => (
+                  (
+                    Object.keys(categories) as Array<keyof typeof categories>
+                  ).map((c) => (
                     <span
                       className={`${
-                        selectedCategories.includes(c.id) &&
+                        selectedCategories.includes(c) &&
                         "border-2 border-gray-800"
                       } mx-2 bg-slate-300 px-2 py-1 font-medium text-white`}
-                      key={c.id}
-                      onClick={() => handleCategoriesUpdate(c.id)}
+                      key={c}
+                      onClick={() => handleCategoriesUpdate(c)}
                     >
-                      {c.name}
+                      {c}
                     </span>
                   ))}
               </div>
             </div>
-
             <div className="col-span-6 sm:col-span-4">
               <label
                 htmlFor="tags"
@@ -283,7 +277,7 @@ const Product: NextPage = () => {
                 Image Selection
               </label>
 
-              <div className="flex max-w-full flex-row">
+              <div className="grid grid-cols-4 gap-4">
                 {images &&
                   imageId &&
                   images.map((image) => (

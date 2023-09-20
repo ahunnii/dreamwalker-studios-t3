@@ -1,10 +1,10 @@
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden bg-white">
+    <div className="relative overflow-hidden bg-zinc-900">
       <div className="mx-auto max-w-7xl">
-        <div className="relative z-10 bg-white pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
+        <div className="relative z-10 bg-zinc-900 pb-8 sm:pb-16 md:pb-20 lg:w-full lg:max-w-2xl lg:pb-28 xl:pb-32">
           <svg
-            className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-white lg:block"
+            className="absolute inset-y-0 right-0 hidden h-full w-48 translate-x-1/2 transform text-zinc-900 lg:block"
             fill="currentColor"
             viewBox="0 0 100 100"
             preserveAspectRatio="none"
@@ -15,26 +15,28 @@ export default function Hero() {
 
           <div className="relative px-4 pt-6 sm:px-6 lg:px-8"></div>
 
-          <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <main className="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28 ">
             <div className="sm:text-center lg:text-left">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-                <span className="block text-blue-600 xl:inline">
-                  Infinite-ish{" "}
-                </span>
+              <h1 className="text-4xl font-extrabold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-7xl">
+                <span className="bg-gradient-to-r from-blue-600 to-teal-500 bg-clip-text text-transparent">
+                  Infinite-ish
+                </span>{" "}
                 <span className="block xl:inline">
                   world of possibilities await
                 </span>
               </h1>
-              <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
+
+              <p className="my-8 text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
                 We offer a ever changing line up of cool figures, statues, and
                 random stuff all 3D printed, all with transparent pricing. Check
                 back every month to see what we offer!
               </p>
+
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
                     href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 md:py-4 md:px-10 md:text-lg"
+                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-600 px-8 py-3 text-base font-medium text-white hover:bg-blue-700 md:py-3 md:px-8 md:text-lg"
                   >
                     Shop
                   </a>
@@ -42,7 +44,7 @@ export default function Hero() {
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
                     href="#"
-                    className="flex w-full items-center justify-center rounded-md border border-transparent bg-blue-100 px-8 py-3 text-base font-medium text-blue-700 hover:bg-blue-200 md:py-4 md:px-10 md:text-lg"
+                    className="border-1 flex w-full items-center justify-center rounded-md border border-zinc-500 bg-zinc-700 px-8 py-3 text-base font-medium text-white hover:bg-zinc-600 md:py-3 md:px-8 md:text-lg"
                   >
                     Request a custom job
                   </a>

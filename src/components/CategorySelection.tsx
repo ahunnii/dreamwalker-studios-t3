@@ -9,6 +9,8 @@ interface Category {
 
 interface CategoryProps {
   categories: Array<Category>;
+  selectedCategories: Array<string>;
+  setSelectedCategories: (id: Array<string>) => void;
 }
 
 const CategorySelection: FC<CategoryProps> = ({ categories }) => {
@@ -36,7 +38,7 @@ const CategorySelection: FC<CategoryProps> = ({ categories }) => {
           leaveFrom="transform opacity-100 scale-100"
           leaveTo="transform opacity-0 scale-95"
         >
-          <Menu.Items className="absolute  z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+          <Menu.Items className="absolute  z-20 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
             <div className="px-1 py-1 ">
               {categories &&
                 categories.map((item: Category) => (
@@ -95,6 +97,14 @@ function EditActiveIcon(props: IconProps) {
 }
 
 const CategoryItem: FC<Category> = ({ name }) => {
+  const handleOnClick = (id: string) => {
+    if (selectedCategories.includes(id))
+      setSelectedCategories(
+        selectedCategories.filter((categoryId) => categoryId !== id)
+      );
+    else setSelectedCategories([...selectedCategories, id]);
+  };
+
   return (
     <Menu.Item>
       {({ active }) => (

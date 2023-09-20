@@ -50,9 +50,14 @@ model Session {
   user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
+enum UserRole{
+  GENERAL
+  SUPER
+}
 model User {
   id            String    @id @default(cuid())
   name          String?
+  role          UserRole  @default(GENERAL)
   email         String?   @unique
   emailVerified DateTime?
   image         String?
@@ -99,16 +104,24 @@ model Size {
 
 }
 
-model Category{
-  id        String   @id @default(cuid())
-  name      String
-  products  Product[]  
-}
+// model Category{
+//   id        String   @id @default(cuid())
+//   name      String
+//   products  Product[]  
+// }
 
 model Tag {
   id String @id @default(cuid())
   name String
   products Product[]
+}
+
+model Modifier {
+  id String @id @default(cuid())
+  name String
+  price Float?
+  products Product[]
+
 }
 
 model Image{
@@ -119,13 +132,32 @@ model Image{
 }
 
 
+enum CategoryOption{
+  Armor
+  Helmet
+  Miniature
+  Bust
+  Figure
+  Statue
+  Prop
+  Weapon
+  Misc
+  Kit
+  Bundle
+}
+
 model Product {
   id String @id @default(cuid())
   name String
   tagline String?
-  categories Category[]
-  tags Tag[]
   description String
   price Float
+  stlPrice Float?
+  category CategoryOption @default(Misc)
+  tags Tag[]
   images Image[]
+  isFeatured Boolean @default(false)
+  durationInMonths Int @default(1)
+  modifiers Modifier[]
+
 }// Variants

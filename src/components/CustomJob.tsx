@@ -1,12 +1,12 @@
 const CustomJob = () => {
   const goToQuote = () => console.log("/quote");
   return (
-    <div className=" mx-auto my-20 flex h-80 flex-col justify-center rounded-md bg-slate-400 px-5 text-center">
+    <div className=" py-30 mx-auto flex h-96 flex-col justify-center rounded-md bg-zinc-900 px-5 text-center text-white">
       <h2 className="mx-auto text-4xl font-bold">
         Looking for something different? We do custom print jobs!
       </h2>
       <button
-        className="mx-auto mt-5 w-fit rounded-lg bg-slate-900 p-4 font-medium text-white hover:bg-slate-800"
+        className="text-blue mx-auto mt-5 w-fit rounded-lg bg-blue-700 p-4 font-medium hover:bg-blue-800"
         onClick={goToQuote}
       >
         Request a quote

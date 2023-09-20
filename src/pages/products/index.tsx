@@ -69,6 +69,10 @@ const AuthShowcase: React.FC = () => {
 
   const { data: sessionData } = useSession();
 
+  if (sessionData?.user?.role !== "SUPER") {
+    return <p>You have like no access hommie</p>;
+  }
+
   return (
     <div className="flex flex-col items-center justify-center gap-2">
       {sessionData && (
@@ -79,6 +83,9 @@ const AuthShowcase: React.FC = () => {
       {secretMessage && (
         <p className="text-2xl text-blue-500">{secretMessage}</p>
       )}
+
+      <p>{sessionData?.user?.role?.toLocaleString()}</p>
+
       <button
         className="rounded-md border border-black bg-violet-50 px-4 py-2 text-xl shadow-lg hover:bg-violet-100"
         onClick={sessionData ? () => signOut() : () => signIn()}

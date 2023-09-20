@@ -26,6 +26,7 @@ export default defineNextConfig({
       "avatars.dicebear.com",
       "cdn.discordapp.com",
       "res.cloudinary.com",
+      "files.cults3d.com",
     ],
   },
 });

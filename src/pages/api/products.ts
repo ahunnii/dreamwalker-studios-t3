@@ -5,7 +5,6 @@ import { prisma } from "../../server/db/client";
 const products = async (req: NextApiRequest, res: NextApiResponse) => {
   const products = await prisma.product.findMany({
     include: {
-      categories: true,
       tags: true,
       images: true,
     },

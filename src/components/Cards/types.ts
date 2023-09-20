@@ -86,11 +86,21 @@ export interface SimpleProduct {
   id: string;
   name: string;
   tagline?: string | null;
-  categories: Array<Category>;
+  category: string;
   // tags: Array<string>;
   description: string;
   price: number;
   images: Array<Image>;
+}
+export interface LocalSimpleProduct {
+  id: string;
+  name: string;
+  tagline?: string | null;
+  category: string;
+  // tags: Array<string>;
+  description: string;
+  price: number;
+  images: Array<string>;
 }
 
 export interface LocalSelectedVariant {

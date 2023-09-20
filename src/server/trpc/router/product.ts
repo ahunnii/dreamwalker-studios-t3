@@ -1,3 +1,4 @@
+import { CategoryOption } from "@prisma/client";
 import { z } from "zod";
 import { publicProcedure, router } from "../trpc";
 
@@ -12,7 +13,6 @@ export const productRouter = router({
   getAll: publicProcedure.query(({ ctx }) => {
     return ctx.prisma.product.findMany({
       include: {
-        categories: true,
         tags: true,
         images: true,
       },
@@ -24,7 +24,6 @@ export const productRouter = router({
         id: input,
       },
       include: {
-        categories: true,
         tags: true,
         images: true,
       },
@@ -53,7 +52,7 @@ export const productRouter = router({
     });
   }),
   getCategories: publicProcedure.query(({ ctx }) => {
-    return ctx.prisma.category.findMany();
+    return CategoryOption;
   }),
 
   getImages: publicProcedure.query(({ ctx }) => {
@@ -92,7 +91,7 @@ export const productRouter = router({
         tagline: z.string().nullish(),
         price: z.number(),
         imageId: z.string(),
-        categories: z.string().array(),
+        category: z.nativeEnum(CategoryOption),
         tags: z.string().array().nullish(),
       })
     )
@@ -117,14 +116,7 @@ export const productRouter = router({
             set: [],
             connect: [{ id: input?.imageId }],
           },
-          categories: {
-            set: [],
-            connect: input.categories.map((c) => {
-              return {
-                id: c,
-              };
-            }),
-          },
+          category: input.category,
           tags: {
             set: [],
             connect:
@@ -135,7 +127,7 @@ export const productRouter = router({
               }) ?? [],
           },
         },
-        include: { images: true, categories: true, tags: true },
+        include: { images: true, tags: true },
       });
     }),
 
@@ -147,7 +139,7 @@ export const productRouter = router({
         tagline: z.string().nullish(),
         price: z.number(),
         imageId: z.string(),
-        categories: z.string().array(),
+        category: z.nativeEnum(CategoryOption),
         tags: z.string().array().nullish(),
       })
     )
@@ -170,13 +162,7 @@ export const productRouter = router({
             //   },
             // },
           },
-          categories: {
-            connect: input.categories.map((c) => {
-              return {
-                id: c,
-              };
-            }),
-          },
+
           tags: {
             connect:
               input?.tags?.map((c) => {
@@ -186,7 +172,7 @@ export const productRouter = router({
               }) ?? [],
           },
         },
-        include: { images: true, categories: true, tags: true },
+        include: { images: true, tags: true },
       });
     }),
 });
